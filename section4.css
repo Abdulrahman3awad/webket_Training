@@ -1,0 +1,126 @@
+.content{
+    width: calc(100% - 300px);
+    position: absolute; right: 0; top: 0;
+}
+.content .section4{
+    width: 100%; background-color: hsl(202deg 21% 93%);
+    position: relative; height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.content .section4 h2{
+    width: 90%;
+    text-align: start;
+    position: relative;
+    
+}
+.content .section4 .sec4-content{
+    width: 90%; background-color: hsl(0deg 0% 100%);
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    gap: 10px;
+    
+}
+.content .section4 .sec4-content .sec4-card{
+    width: 30%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 8px 13px 0 #99999921;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+}
+.content .section4 .sec4-content .sec4-card:hover{
+    transform: scale(1.01);
+    filter: brightness(.99);
+}
+.content .section4 .sec4-content .sec4-card:hover img{
+    transform: scale(1.15) rotate(-2deg);
+    filter: brightness(.5);
+}
+.content .section4 .sec4-content .sec4-card img{
+    min-width: 100%;
+    height: 50%;
+    transition: all .2s;
+    transform:scale(1.07) rotate(2deg);
+    object-fit: cover;
+}
+.content .section4 .sec4-content .sec4-card h3{
+    position: relative;
+    left: 15px;top: 10px;
+    line-height: 10px;
+    font-size: 16px;
+    color: hsl(199deg 83% 53%);
+}
+.content .section4 .sec4-content .sec4-card p{
+    padding: 0px 20px 0 10px ;
+    position: relative;
+    left: 5px;
+    font-size: 14px;
+    color: #999;
+
+}
+.content .section4 .sec4-content .sec4-card > span{
+    width: 85%;
+    height: 1px;
+    background-color: #ccc;
+    position: relative;
+    top: 0px;
+    left: 7.5%;
+}
+
+.content .section4 .sec4-content .sec4-card div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.content .section4 .sec4-content .sec4-card div span{
+    position: relative;
+    left: 20px;
+    font-size: 23px;
+    color: hsl(218deg 69% 37%);
+}
+.content .section4 .sec4-content .sec4-card div span::before{
+    content: 'Followers';
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: -15px;
+    font-size: 12px;
+    color: #999;
+}
+.content .section4 .sec4-content .sec4-card div button{
+    width: 80px;
+    height: 35px;
+    border: 1px solid hsl(199deg 83% 53%);
+    color: hsl(199deg 83% 53%);
+    background-color: transparent;
+    border-radius: 35px;
+    position: relative; right: 20px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.content .section4 .sec4-content .sec4-card div button:hover{
+    background-color: hsl(199deg 83% 53%);
+    color: white;
+
+}
+
+
+

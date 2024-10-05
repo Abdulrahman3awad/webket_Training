@@ -1,0 +1,12 @@
+
+body{ background-color: rgb(227, 226, 233); }
+body::-webkit-scrollbar{ width: 4px; }
+body::-webkit-scrollbar-track{ width: 4px; background-color: transparent; }
+body::-webkit-scrollbar-thumb{
+    width: 4px; background-color: #2959ae;
+}
+*{ margin: 0; padding: 0; box-sizing: border-box; user-select: none;}
+
+
+
+
